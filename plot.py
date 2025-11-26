@@ -3,6 +3,6 @@ import pandas as pd
 
 data = pd.read_csv('fibonacci.csv')
 
-fig = plt.plot(data)
+fig = plt.plot(data["value"])
 
-fig.savefig('fibonacci.html')
+plt.savefig('fibonacci.png')
